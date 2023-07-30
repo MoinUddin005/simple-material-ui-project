@@ -1,17 +1,18 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Branding from './Branding/Branding';
-// import Brands from './Brands/Brands';
+import Brands from './Brands/Brands';
+import Services from './Services/Services';
 // import Faq from './Faq/Faq';
 // import OurWorks from './OurWorks/OurWorks';
-// import Services from './Services/Services';
 
 const Home = () => {
    return (
       <div>
          <Branding />
-         {/* <Brands />
+         <Brands />
          <Services />
-         <OurWorks />
+         {/* <OurWorks />
          <Faq /> */}
         
       </div>
