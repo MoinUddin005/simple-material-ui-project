@@ -4,7 +4,7 @@ import Branding from './Branding/Branding';
 import Brands from './Brands/Brands';
 import Services from './Services/Services';
 import OurWorks from './OurWorks/OurWorks';
-// import Faq from './Faq/Faq';
+import Faq from './Faq/Faq';
 
 const Home = () => {
    return (
@@ -13,7 +13,7 @@ const Home = () => {
          <Brands />
          <Services />
          <OurWorks/>
-         {/* <Faq /> */}
+         <Faq />
         
       </div>
    );
